@@ -34,4 +34,4 @@ overlay the sun's trajectory
 
 calculate the radiation received by the solar streetlight 
 
- ```03_calculate_solar_radiation .ipynb```
+ ```03_calculate_solar_radiation.ipynb```
