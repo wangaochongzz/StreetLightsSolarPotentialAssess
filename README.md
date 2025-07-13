@@ -22,7 +22,7 @@ streetlight multi-view location
 
 ```python objectmapping.py```
 
-### 3. The solar_assess folder holds the code to calculate the solar radiation of the street light.
+### 3. The solar_assess folder holds the code that calculates the amount of solar radiation received by the streetlight.
 
 generate fisheye image 
 
