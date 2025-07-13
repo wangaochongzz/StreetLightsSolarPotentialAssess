@@ -24,14 +24,14 @@ streetlight multi-view location
 
 ### 4. The solar_assess folder holds the code to calculate the solar radiation of the street light.
 
-Generate a fisheye image 
+generate fisheye image 
 
 ```01_fisheye_images_generation.ipynb ```
 
-Overlay the sun's trajectory
+overlay the sun's trajectory
 
  ```02_overlay_the_trajectory_of_the_sun.ipynb``` 
 
-Calculate the radiation received by the solar streetlight 
+calculate the radiation received by the solar streetlight 
 
  ```03_calculate_solar_radiation .ipynb```
