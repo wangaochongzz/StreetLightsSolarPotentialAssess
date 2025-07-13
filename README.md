@@ -28,7 +28,7 @@ Generate a fisheye image
 
 ```01_fisheye_images_generation.ipynb ```
 
-Fisheye image superimposed on the trajectory of the sun 
+Overlay the solar trajectory
 
  ```02_overlay_the_trajectory_of_the_sun.ipynb``` 
 
