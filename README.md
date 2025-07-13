@@ -4,21 +4,21 @@ This library is used to store data and code for evaluating the solar potential o
 
 ### 1. The streetlight_detection folder holds example data and models for detecting streetlight heads and extracting poles.
 
-yolov5 light head detection 
+yolov5 streetlight head detection 
 
 ```python predict.py ```
 
-deeplabv3+ extracts light poles 
+deeplabv3+ extracts streetlight poles 
 
 ```deeplabv3plus.ipynb ```
 
 ### 2. The streetlight_location folder holds the code to locate the streetlight's single-view location and multi-view location.
    
-Monocular depth estimation 
+streetlight monocular depth estimation 
 
 ```3_depth_prediction_dir.ipynb ```
 
-Multi-view location 
+streetlight multi-view location 
 
 ```python objectmapping.py```
 
@@ -32,6 +32,6 @@ Fisheye image superimposed on the trajectory of the sun
 
  ```02_overlay_the_trajectory_of_the_sun.ipynb``` 
 
-Calculate the radiation received by the PV panel 
+Calculate the radiation received by the solar streetlight 
 
  ```03_calculate_solar_radiation .ipynb```
