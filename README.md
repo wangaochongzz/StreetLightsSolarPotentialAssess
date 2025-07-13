@@ -32,6 +32,6 @@ Fisheye image superimposed on the trajectory of the sun
 
  ```02_overlay_the_trajectory_of_the_sun.ipynb``` 
 
-Calculate_the_radiation_value_received_by_the_PV_panel 
+Calculate the radiation received by the PV panel 
 
  ```03_calculate_solar_radiation .ipynb```
