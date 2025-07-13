@@ -1,26 +1,37 @@
 # StreetLightsSolarPotentialAssess
-This library is used to store data and code for evaluating the solar potential of streetlights through Street View imagery and deep learning. The operating environment used to develop the code for this library is Windows 11 and Python 3.7.
 
-### 1. The first folder streetlight_detection contains the sample streetlight header dataset, YOLOv5 model, and DepplabV3+ model.
-Environment configuration 
-``` pip install -r requirement ```
-model training 
-```python train.py ```
-model validation 
-```python get_map.py ```
-lamp head detection 
-```python predict.py```
+This library is used to store data and code for evaluating the solar potential of streetlights through Street View imagery and deep learning. The operating environment used to develop the code for this library is Windows 11, Python 3.7 and pytorch.
 
-### 2. The second folder streetlight_location contains the monodepth2 model and the triangulation model for locating streetlights.
-Depth estimation 
-```3_depth_prediction_dir.ipynb```
+### 1. The streetlight_detection folder holds example data and models for detecting streetlight heads and extracting poles.
+
+yolov5 light head detection 
+
+```python predict.py ```
+
+deeplabv3+ extracts light poles 
+
+```deeplabv3plus.ipynb ```
+
+### 2. The streetlight_location folder holds the code to locate the streetlight's single-view location and multi-view location.
+   
+Monocular depth estimation 
+
+```3_depth_prediction_dir.ipynb ```
+
 Multi-view location 
+
 ```python objectmapping.py```
 
-### 3. The third folder, solar_assess, contains the code for evaluating solar radiation from streetlights using Street View images.
+4. solar_assess The solar_assess folder holds the code to calculate the solar radiation of the street light.
+
 Generate a fisheye image 
-```01_fisheye_images_generation.ipynb``` 
+
+```01_fisheye_images_generation.ipynb ```
+
 Fisheye image superimposed on the trajectory of the sun 
-``` 02_overlay_the_trajectory_of_the_sun.ipynb ```
+
+ ```02_overlay_the_trajectory_of_the_sun.ipynb``` 
+
 Calculate_the_radiation_value_received_by_the_PV_panel 
-``` 03_calculate_solar_radiation .ipynb```
+
+ ```03_calculate_solar_radiation .ipynb```
