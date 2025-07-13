@@ -1,6 +1,6 @@
 # StreetLightsSolarPotentialAssess
 
-This library is used to store data and code for evaluating the solar potential of streetlights through Street View imagery and deep learning. The operating environment used to develop the code for this library is Windows 11, Python 3.7 and pytorch.
+This library is used to store data and code for evaluating the solar potential of streetlights through Street View imagery and deep learning. The operating environment used to develop the code for this library is Windows 11, Pytorch 3.10 and Python 3.7.
 
 ### 1. The streetlight_detection folder holds example data and models for detecting streetlight heads and extracting poles.
 
